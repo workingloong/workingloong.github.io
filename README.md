@@ -1,6 +1,6 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
 
-Welcome to my page! I am wang qinlong, a mlsys engineer, focusing on large-scale
+Welcome to my page! I am a mlsys engineer, focusing on large-scale
 distributed training. I have rich experience in improving the stability, throughput
 and resource efficiency of TensorFlow/PyTorch distributed training.
 
