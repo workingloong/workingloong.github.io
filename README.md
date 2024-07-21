@@ -1,15 +1,14 @@
-# Hey! Nice to see you!
+<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
 
 Welcome to my page! I am wang qinlong, a mlsys engineer, focusing on large-scale
 distributed training. I have rich experience in improving the stability, throughput
 and resource efficiency of TensorFlow/PyTorch distributed training.
 
-[zhihu page](https://www.zhihu.com/people/workingloong-94)
 
 <h3>Open source projects</h3>
 <table>
   <thead align="center">
-    <tr border: none;>
+    <tr>
       <td><b>🎁 Projects</b></td>
       <td><b>⭐ Stars</b></td>
       <td><b>📚 Forks</b></td>
@@ -40,4 +39,8 @@ and resource efficiency of TensorFlow/PyTorch distributed training.
 <li><a href="https://arxiv.org/pdf/2304.01468v2"><b>DLRover-RM: An Automatic Resource Optimization System for Recommendation Model Training (VLDB'24)</b></a><br/><i>AutoScale your distributed training jobs.</i></li>
 <li><a href="https://zhuanlan.zhihu.com/p/684241366"><b>DLRover Flash Checkpoint to Speedup Megatron-lM Checkpoint</b></a><br/><i>Save the checkpoint of Megatron-LM in seconds.</i></li>
 </ul>
+
+<h3>Where to find me</h3>
+<p><a href="https://github.com/workingloong" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a>
+</p>
 
