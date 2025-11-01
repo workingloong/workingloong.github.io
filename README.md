@@ -1,46 +1,93 @@
-<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>on the Path to AGI</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #f0f0f0;
+            padding: 28px;
+            text-align: center;
+        }
+        .profile {
+            margin-top: 50px;
+        }
+        .profile h1 {
+            color: #006699;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .profile .links a {
+            color: #006699;
+            margin: 0 5px;
+            font-size: 18px;
+        }
+        .content {
+            margin: 30px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .content a {
+            color: #006699;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="profile">
+            <h1>Qinlong Wang</h1>
+            <div class="links">
+                <a href="https://github.com/workingloong">Github</a> | <a href="https://scholar.google.com/citations?hl=zh-CN&pli=1&user=Op709poAAAAJ">Google Scholar</a> | <a href="https://www.zhihu.com/people/workingloong-94">知乎</a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <p>Qinlong works on AI infrastructure at Bytedance Seed, focusing on robust distributed computing system on Kubernetes for distributed training and data processing. At Bytedance, he contributes to the <a href="https://dl.acm.org/doi/10.1145/3731569.3764838">Robust LLM Training Infrastructure</a> and is responsible for the engineering optimization (data processing, training and inference) in <a href="https://arxiv.org/abs/2510.19944">Seed3D</a>. Before joining Bytedance, he initiated the <a href="https://github.com/intelligent-machine-learning/dlrover">DLRover</a> and was the core contributor of <a href="https://github.com/sql-machine-learning/elasticdl">ElasticDL</a> at AntGroup.</p>
 
-Welcome to my page! I am a mlsys engineer, focusing on large-scale
-distributed training. I have rich experience in improving the stability, throughput
-and resource efficiency of TensorFlow/PyTorch distributed training.
+        <h2>Open Source Softwares <small>(Python, Golang, C++)</small></h2>
+        <ul>
+            <li>
+              <a href="https://github.com/intelligent-machine-learning/dlrover"><b>DLRover</b></a>, An Automatic Distributed Deep Learning System, #1 contributor, 1251 commits
+              <img alt="Stars" src="https://img.shields.io/github/stars/intelligent-machine-learning/dlrover?style=flat-square&labelColor=343b41"/>
+              <img alt="Forks" src="https://img.shields.io/github/forks/intelligent-machine-learning/dlrover?style=flat-square&labelColor=343b41"/>
+              <img alt="Issues" src="https://img.shields.io/github/issues/intelligent-machine-learning/dlrover?style=flat-square&labelColor=343b41"/>
+              <img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/intelligent-machine-learning/dlrover?style=flat-square&labelColor=343b41"/>
+            </li>
+            <li>
+              <a href="https://github.com/https://github.com/sql-machine-learning/elasticdl"><b>ElasticDL</b></a>, A Kubernetes-native Deep Learning Framework, #1 contributor, 320 commits
+              <img alt="Stars" src="https://img.shields.io/github/stars/sql-machine-learning/elasticdl?style=flat-square&labelColor=343b41"/>
+              <img alt="Forks" src="https://img.shields.io/github/forks/sql-machine-learning/elasticdl?style=flat-square&labelColor=343b41"/>
+              <img alt="Issues" src="https://img.shields.io/github/issues/sql-machine-learning/elasticdl?style=flat-square&labelColor=343b41"/>
+              <img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/sql-machine-learning/elasticdl?style=flat-square&labelColor=343b41"/>
+            </li>
+        </ul>
 
+        <h2>Papers</h2>
+        <ul>
+            <li><a href="https://dl.acm.org/doi/abs/10.1145/3731569.3764848"><b>Mycroft: Tracing Dependencies in Collective Communication Towards Reliable LLM Training</b></a>, SOSP 2025</li>
+            <li><a href="https://dl.acm.org/doi/abs/10.1145/3731569.3764838"><b>Robust LLM Training Infrastructure at ByteDance</b></a>, SOSP 2025</li>
+            <li><a href="https://www.vldb.org/pvldb/vol17/p4130-tang.pdf"><b>DLRover-RM: An Automatic Resource Optimization System for Recommendation Model Training</b></a>, VLDB 2024</li>
+        </ul>
 
-<h3>Open source projects</h3>
-<table>
-  <thead align="center">
-    <tr>
-      <td><b>🎁 Projects</b></td>
-      <td><b>⭐ Stars</b></td>
-      <td><b>📚 Forks</b></td>
-      <td><b>🛎 Issues</b></td>
-      <td><b>📬 Pull requests</b></td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/intelligent-machine-learning/dlrover"><b>DLRover: An Automatic Distributed Deep Learning System</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/intelligent-machine-learning/dlrover?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/intelligent-machine-learning/dlrover?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/intelligent-machine-learning/dlrover?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/intelligent-machine-learning/dlrover?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-	  <tr>
-      <td><a href="https://github.com/https://github.com/sql-machine-learning/elasticdl"><b>ElasticDL: A Kubernetes-native Deep Learning Framework</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/sql-machine-learning/elasticdl?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/sql-machine-learning/elasticdl?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/sql-machine-learning/elasticdl?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/sql-machine-learning/elasticdl?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-  </tbody>
-</table>
+        <h2> Tech Reports</h2>
+        <ul>
+            <li><a href="https://arxiv.org/abs/2510.19944"><b>Seed3D 1.0: From Images to High-Fidelity Simulation-Ready 3D Assets</b></a>, 2025</li>
+            <li><a href="https://arxiv.org/abs/2504.13914"><b>Seed1. 5-thinking: Advancing superb reasoning models with reinforcement learning</b></a>, 2025</li>
+            <li><a href="https://arxiv.org/abs/2506.09113"><b>Seedance 1.0: Exploring the Boundaries of Video Generation Models</b></a>, 2025</li>
+        </ul>
 
-<h3>My latest posts</h3>
-<ul>
-<li><a href="https://arxiv.org/pdf/2304.01468v2"><b>DLRover-RM: An Automatic Resource Optimization System for Recommendation Model Training (VLDB'24)</b></a><br/><i>AutoScale your distributed training jobs.</i></li>
-<li><a href="https://zhuanlan.zhihu.com/p/684241366"><b>DLRover Flash Checkpoint to Speedup Megatron-lM Checkpoint</b></a><br/><i>Save the checkpoint of Megatron-LM in seconds.</i></li>
-</ul>
-
-<h3>Where to find me</h3>
-<p><a href="https://github.com/workingloong" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> <a href="https://www.zhihu.com/people/workingloong-94" target="_blank"><img alt="Zhihu" src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%2312100E.svg?&style=for-the-badge&logoColor=white" /></a>
-</p>
-
+        <h2>Blogs</h2>
+        <ul>
+        <li><a href="https://zhuanlan.zhihu.com/p/684241366"><b>DLRover Flash Checkpoint 实现秒级导出 Megatron-LM 的训练状态</b></a></li>
+        <li><a href="https://zhuanlan.zhihu.com/p/676268959"><b>Flash Checkpoint on DLRover：千亿参数模型训练秒级导出 Checkpoint</b></a></li>
+        <li><a href="https://zhuanlan.zhihu.com/p/689721841">><b>走近 AI Infra 架构师：在高速飞驰的大模型“赛车”上“换轮子”的人</b></a></li>
+        <li><a href="https://zhuanlan.zhihu.com/p/647560668">><b>DLRover 在 K8s 上千卡级大模型训练稳定性保障的技术实践</b></a></li>
+        </ul>
+    </div>
+</body>
+</html>
